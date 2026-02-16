@@ -6,7 +6,8 @@ import authRouter from "./routes/auth.routes.js"
 import cors from "cors"
 import cookieParser from "cookie-parser"
 import userRouter from "./routes/user.routes.js"
-import geminiResponse from "./gemini.js"
+
+
 
 
 const app=express()
